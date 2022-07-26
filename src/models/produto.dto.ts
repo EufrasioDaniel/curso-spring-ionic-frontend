@@ -1,6 +1,6 @@
-export interface ClienteDTO { 
+export interface ProdutoDTO {
     id: string;
     nome: string;
-    emai: string;
+    preco: number;
     imageUrl?: string; //Opcional
 }
